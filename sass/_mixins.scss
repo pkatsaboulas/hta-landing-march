@@ -5,8 +5,6 @@
 	-o-transition: $args;
 	transition: $args;
 }
-
-// generic transform
 @mixin transform($transforms) {
 	-moz-transform: $transforms;
 	-o-transform: $transforms;
@@ -14,28 +12,28 @@
 	-webkit-transform: $transforms;
 	transform: $transforms;
 }
-// rotate
 @mixin rotate ($deg) {
   @include transform(rotate(#{$deg}deg));
 }
- 
-// scale
 @mixin scale($scale) {
 	 @include transform(scale($scale));
 } 
-// translate
 @mixin translate ($x, $y) {
    @include transform(translate($x, $y));
 }
-// skew
 @mixin skew ($x, $y) {
    @include transform(skew(#{$x}deg, #{$y}deg));
 }
-
-
 @mixin opacity($opacity) {
 	opacity: $opacity;
 	$opacity-ie: $opacity * 100;
 	filter: alpha(opacity=$opacity-ie); //IE8
+}
+@mixin box-shadow($left, $top, $blur, $color) {
+	
+	-webkit-box-shadow: $left $top $blur $color;
+	-moz-box-shadow: $left $top $blur $color;
+	box-shadow: $left $top $blur $color;
+	
 }
 
