@@ -147,7 +147,7 @@ section {
 }
 
 header {
-  position: fixed;
+  position: absolute;
   top: 0;
   z-index: 9999;
   width: 100%;
