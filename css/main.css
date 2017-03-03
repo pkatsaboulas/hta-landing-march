@@ -160,7 +160,7 @@ header .container {
 }
 header .btn_primary {
   position: absolute;
-  right: 60px;
+  right: 0px;
   top: 35px;
   background: white;
   color: #151515;
