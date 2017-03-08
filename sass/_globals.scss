@@ -65,6 +65,7 @@ html,body{
 	height:100%;
     font-family:"Montserrat";
 	-webkit-font-smoothing:antialiased;
+    color:$blue;
 }
 #main{
 	width:100%;
@@ -77,32 +78,32 @@ html,body{
 	margin:0 auto;
 }
 section{
-	padding:60px 0;
+	padding:30px 0;
 }
 .row{
 	display:flex;
     align-items:center;
 }
 .col-25{
-	width:30%;
+	width:25%;
 	float:left;
     text-align:center;
     img{
         display:inline-block;
         width:100%;
         max-width:200px;
-        background:$gray;
+        //background:$blue_light;
     }
 }
 .col-75{
-    width:70%;
+    width:75%;
     float:left;
     padding-left:30px;
     h3{
-        font-size:35px;
-        line-height:35px;
+        font-size:30px;
+        line-height:30px;
         margin-bottom:10px;
-        color:$blue;
+        color:$blue_light;
     }
     h4{
         font-size:20px;
@@ -141,7 +142,7 @@ header{
     width:100%;
     height:120px;
     padding:0 60px;
-    background:$blue;
+    ///background:$blue;
     .container{
         max-width:1280px;
     }
@@ -149,8 +150,8 @@ header{
         position:absolute;
         right:0px;
         top:35px;
-        background:white;
-        color:$blue;
+        background:$blue_light;
+        color:white;
     }
 }
 footer{
@@ -158,26 +159,39 @@ footer{
 }
 
 .main-content{
-    padding:60px 0;
+    padding:40px 0;
+}
+h3.main-content_heading{
+    padding:60px 0 60px 0;
+    font-size:35px;
+    line-height:45px;
+    width:100%;
+    max-width:800px;
+    margin:0 auto;
+    text-align:center;
+}
+.green_text{
+    color:$blue_light;
 }
 .hero{
     position:relative;
     width:100%;
     height:100%;
-    max-height:750px;
+    max-height:650px;
     min-height:650px;
-    background:$blue;
+    background:#ebebeb url(../img/drivers.png) repeat-x bottom center;
     color:white;
     .hero-copy{
         position:absolute;
         width:100%;
-        bottom:0;
+        bottom:350px;
         text-align:center;
         h2{
-            font-size:40px;
+            font-size:45px;
             line-height:55px;
             max-width:850px;
-            margin:0 auto 80px auto;
+            margin:0 auto 0 auto;
+            color:$blue;
         }
         img{
             display:block;
