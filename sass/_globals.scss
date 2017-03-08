@@ -126,7 +126,7 @@ section{
     border-radius:8px;
     background:$blue;
     color:white;
-    font-size:16px;
+    font-size:18px;
     line-height:50px;
     font-weight:700;
     text-align:center;
@@ -159,7 +159,7 @@ footer{
 }
 
 .main-content{
-    padding:40px 0;
+    padding:40px 0 100px 0;
 }
 h3.main-content_heading{
     padding:60px 0 60px 0;
@@ -199,6 +199,48 @@ h3.main-content_heading{
             max-width:800px;
             margin:0 auto;
         }
+    }
+}
+
+.contact-form{
+    padding:120px 0;
+    background:$blue;
+    text-align:center;
+    h3{
+        font-size:30px;
+        line-height:35px;
+        max-width:800px;
+        margin:0 auto 0 auto;
+        color:white;
+    }
+    form{
+        width:100%;
+        max-width:650px;
+        margin:40px auto 0 auto;
+    }
+    .field{
+        width:100%;
+        margin:10px 0;
+        input{
+            width:100%;
+            height:60px;
+            padding:10px 20px;
+            border:1px solid rgba(255,255,255,0.3);
+            border-radius:8px;
+            background:rgba(255,255,255,1);
+            font-size:20px;
+            &:focus{
+                outline:none;
+            }
+        }
+    }
+    .btn_primary{
+        font-size:22px;
+        height:60px;
+        line-height:60px;
+        padding:0 50px;
+        background:$blue_light;
+        margin-top:30px;
     }
 }
 
