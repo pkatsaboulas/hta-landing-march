@@ -106,6 +106,7 @@ section{
         margin-bottom:10px;
         color:$blue_light;
         font-weight:500;
+        letter-spacing:-0.75px;
     }
     h4{
         font-size:20px;
@@ -113,6 +114,7 @@ section{
         margin-bottom:20px;
         color:$blue;
         font-weight:500;
+        letter-spacing:-0.75px;
     }
     p{
         font-size:16px;
@@ -129,7 +131,7 @@ section{
     border-radius:8px;
     background:$blue;
     color:white;
-    font-size:18px;
+    font-size:20px;
     line-height:50px;
     font-weight:700;
     text-align:center;
@@ -173,6 +175,7 @@ h3.main-content_heading{
     margin:0 auto;
     text-align:center;
     font-weight:500;
+    letter-spacing:-0.75px;
 }
 .green_text{
     color:$blue_light;
@@ -188,7 +191,7 @@ h3.main-content_heading{
     .hero-copy{
         position:absolute;
         width:100%;
-        bottom:350px;
+        bottom:320px;
         text-align:center;
         h2{
             font-size:45px;
@@ -197,6 +200,7 @@ h3.main-content_heading{
             margin:0 auto 0 auto;
             color:$blue;
             font-weight:500;
+            letter-spacing:-0.75px;
         }
         img{
             display:block;
@@ -218,6 +222,7 @@ h3.main-content_heading{
         margin:0 auto 0 auto;
         color:white;
         font-weight:500;
+        letter-spacing:-0.75px;
     }
     form{
         width:100%;
@@ -234,7 +239,9 @@ h3.main-content_heading{
             border:1px solid rgba(255,255,255,0.3);
             border-radius:8px;
             background:rgba(255,255,255,1);
-            font-size:20px;
+            font-size:18px;
+            font-family:"Montserrat", sans-serif;
+            font-weight:500;
             &:focus{
                 outline:none;
             }

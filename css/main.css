@@ -117,6 +117,7 @@ section {
   margin-bottom: 10px;
   color: #39b54a;
   font-weight: 500;
+  letter-spacing: -0.75px;
 }
 .col-75 h4 {
   font-size: 20px;
@@ -124,6 +125,7 @@ section {
   margin-bottom: 20px;
   color: #222;
   font-weight: 500;
+  letter-spacing: -0.75px;
 }
 .col-75 p {
   font-size: 16px;
@@ -139,7 +141,7 @@ section {
   border-radius: 8px;
   background: #222;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 50px;
   font-weight: 700;
   text-align: center;
@@ -181,6 +183,7 @@ h3.main-content_heading {
   margin: 0 auto;
   text-align: center;
   font-weight: 500;
+  letter-spacing: -0.75px;
 }
 
 .green_text {
@@ -199,7 +202,7 @@ h3.main-content_heading {
 .hero .hero-copy {
   position: absolute;
   width: 100%;
-  bottom: 350px;
+  bottom: 320px;
   text-align: center;
 }
 .hero .hero-copy h2 {
@@ -209,6 +212,7 @@ h3.main-content_heading {
   margin: 0 auto 0 auto;
   color: #222;
   font-weight: 500;
+  letter-spacing: -0.75px;
 }
 .hero .hero-copy img {
   display: block;
@@ -229,6 +233,7 @@ h3.main-content_heading {
   margin: 0 auto 0 auto;
   color: white;
   font-weight: 500;
+  letter-spacing: -0.75px;
 }
 .contact-form form {
   width: 100%;
@@ -246,7 +251,9 @@ h3.main-content_heading {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   background: white;
-  font-size: 20px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 .contact-form .field input:focus {
   outline: none;
