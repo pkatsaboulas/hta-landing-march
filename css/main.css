@@ -116,7 +116,6 @@ section {
   line-height: 30px;
   margin-bottom: 10px;
   color: #39b54a;
-  font-weight: 500;
   letter-spacing: -0.75px;
 }
 .col-75 h4 {
@@ -124,7 +123,6 @@ section {
   line-height: 30px;
   margin-bottom: 20px;
   color: #222;
-  font-weight: 500;
   letter-spacing: -0.75px;
 }
 .col-75 p {
@@ -182,7 +180,6 @@ h3.main-content_heading {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  font-weight: 500;
   letter-spacing: -0.75px;
 }
 
@@ -211,7 +208,6 @@ h3.main-content_heading {
   max-width: 850px;
   margin: 0 auto 0 auto;
   color: #222;
-  font-weight: 500;
   letter-spacing: -0.75px;
 }
 .hero .hero-copy img {
@@ -222,17 +218,16 @@ h3.main-content_heading {
 }
 
 .contact-form {
-  padding: 120px 0;
+  padding: 140px 0;
   background: #222;
   text-align: center;
 }
 .contact-form h3 {
   font-size: 30px;
-  line-height: 35px;
+  line-height: 40px;
   max-width: 800px;
   margin: 0 auto 0 auto;
   color: white;
-  font-weight: 500;
   letter-spacing: -0.75px;
 }
 .contact-form form {
@@ -253,7 +248,7 @@ h3.main-content_heading {
   background: white;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 .contact-form .field input:focus {
   outline: none;

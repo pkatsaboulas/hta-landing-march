@@ -105,7 +105,6 @@ section{
         line-height:30px;
         margin-bottom:10px;
         color:$blue_light;
-        font-weight:500;
         letter-spacing:-0.75px;
     }
     h4{
@@ -113,7 +112,6 @@ section{
         line-height:30px;
         margin-bottom:20px;
         color:$blue;
-        font-weight:500;
         letter-spacing:-0.75px;
     }
     p{
@@ -174,7 +172,6 @@ h3.main-content_heading{
     max-width:800px;
     margin:0 auto;
     text-align:center;
-    font-weight:500;
     letter-spacing:-0.75px;
 }
 .green_text{
@@ -199,7 +196,6 @@ h3.main-content_heading{
             max-width:850px;
             margin:0 auto 0 auto;
             color:$blue;
-            font-weight:500;
             letter-spacing:-0.75px;
         }
         img{
@@ -212,16 +208,15 @@ h3.main-content_heading{
 }
 
 .contact-form{
-    padding:120px 0;
+    padding:140px 0;
     background:$blue;
     text-align:center;
     h3{
         font-size:30px;
-        line-height:35px;
+        line-height:40px;
         max-width:800px;
         margin:0 auto 0 auto;
         color:white;
-        font-weight:500;
         letter-spacing:-0.75px;
     }
     form{
@@ -241,7 +236,7 @@ h3.main-content_heading{
             background:rgba(255,255,255,1);
             font-size:18px;
             font-family:"Montserrat", sans-serif;
-            font-weight:500;
+            font-weight:400;
             &:focus{
                 outline:none;
             }
