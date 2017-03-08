@@ -70,7 +70,7 @@ html, body {
   height: 100%;
   font-family: "Montserrat";
   -webkit-font-smoothing: antialiased;
-  color: #22293d;
+  color: #222;
   font-weight: 400;
 }
 
@@ -122,7 +122,7 @@ section {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 20px;
-  color: #22293d;
+  color: #222;
   font-weight: 500;
 }
 .col-75 p {
@@ -137,7 +137,7 @@ section {
   padding: 0 30px;
   border: none;
   border-radius: 8px;
-  background: #22293d;
+  background: #222;
   color: white;
   font-size: 18px;
   line-height: 50px;
@@ -207,7 +207,7 @@ h3.main-content_heading {
   line-height: 55px;
   max-width: 850px;
   margin: 0 auto 0 auto;
-  color: #22293d;
+  color: #222;
   font-weight: 500;
 }
 .hero .hero-copy img {
@@ -219,7 +219,7 @@ h3.main-content_heading {
 
 .contact-form {
   padding: 120px 0;
-  background: #22293d;
+  background: #222;
   text-align: center;
 }
 .contact-form h3 {
