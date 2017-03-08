@@ -71,6 +71,7 @@ html, body {
   font-family: "Montserrat";
   -webkit-font-smoothing: antialiased;
   color: #22293d;
+  font-weight: 400;
 }
 
 #main {
@@ -115,12 +116,14 @@ section {
   line-height: 30px;
   margin-bottom: 10px;
   color: #39b54a;
+  font-weight: 500;
 }
 .col-75 h4 {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 20px;
   color: #22293d;
+  font-weight: 500;
 }
 .col-75 p {
   font-size: 16px;
@@ -177,6 +180,7 @@ h3.main-content_heading {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  font-weight: 500;
 }
 
 .green_text {
@@ -189,7 +193,7 @@ h3.main-content_heading {
   height: 100%;
   max-height: 650px;
   min-height: 650px;
-  background: #ebebeb url(../img/drivers.png) repeat-x bottom center;
+  background: #ebebeb url(../img/drivers.png) no-repeat bottom center;
   color: white;
 }
 .hero .hero-copy {
@@ -204,6 +208,7 @@ h3.main-content_heading {
   max-width: 850px;
   margin: 0 auto 0 auto;
   color: #22293d;
+  font-weight: 500;
 }
 .hero .hero-copy img {
   display: block;
@@ -223,6 +228,7 @@ h3.main-content_heading {
   max-width: 800px;
   margin: 0 auto 0 auto;
   color: white;
+  font-weight: 500;
 }
 .contact-form form {
   width: 100%;
