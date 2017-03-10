@@ -70,7 +70,7 @@ html, body {
   height: 100%;
   font-family: "Montserrat";
   -webkit-font-smoothing: antialiased;
-  color: #283549;
+  color: #252525;
   font-weight: 400;
 }
 
@@ -122,7 +122,7 @@ section {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 20px;
-  color: #283549;
+  color: #252525;
   letter-spacing: -0.75px;
 }
 .col-75 p {
@@ -137,7 +137,7 @@ section {
   padding: 0 30px;
   border: none;
   border-radius: 8px;
-  background: #283549;
+  background: #252525;
   color: white;
   font-size: 20px;
   line-height: 50px;
@@ -173,7 +173,7 @@ header .btn_primary {
 }
 
 h3.main-content_heading {
-  padding: 60px 0 60px 0;
+  padding: 30px 0 60px 0;
   font-size: 35px;
   line-height: 45px;
   width: 100%;
@@ -193,7 +193,7 @@ h3.main-content_heading {
   height: 100%;
   max-height: 650px;
   min-height: 650px;
-  background: #ecf2f3 url(../img/drivers.png) no-repeat bottom center;
+  background: #ebebeb url(../img/drivers.png) no-repeat bottom center;
   color: white;
 }
 .hero .hero-copy {
@@ -207,7 +207,7 @@ h3.main-content_heading {
   line-height: 55px;
   max-width: 850px;
   margin: 0 auto 0 auto;
-  color: #283549;
+  color: #252525;
   letter-spacing: -0.75px;
 }
 .hero .hero-copy img {
@@ -219,7 +219,7 @@ h3.main-content_heading {
 
 .contact-form {
   padding: 140px 0;
-  background: #283549;
+  background: #252525;
   text-align: center;
 }
 .contact-form h3 {
