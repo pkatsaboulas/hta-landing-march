@@ -70,7 +70,7 @@ html, body {
   height: 100%;
   font-family: "Montserrat";
   -webkit-font-smoothing: antialiased;
-  color: #142734;
+  color: #1e2429;
   font-weight: 400;
 }
 
@@ -115,7 +115,7 @@ section {
   font-size: 30px;
   line-height: 30px;
   margin-bottom: 10px;
-  color: #142734;
+  color: #1e2429;
   letter-spacing: -0.75px;
 }
 .col-75 h4 {
@@ -137,8 +137,8 @@ section {
   padding: 0 30px;
   border: none;
   border-radius: 8px;
-  background: #dde416;
-  color: #142734;
+  background: #e1e137;
+  color: #1e2429;
   font-size: 20px;
   line-height: 50px;
   font-weight: 700;
@@ -164,8 +164,8 @@ header .btn_primary {
   position: absolute;
   right: 0px;
   top: 35px;
-  background: #142734;
-  color: #dde416;
+  background: #1e2429;
+  color: #e1e137;
 }
 
 .main-content {
@@ -184,7 +184,7 @@ h3.main-content_heading {
 }
 
 .green_text {
-  color: #dde416;
+  color: #e1e137;
 }
 
 .hero {
@@ -205,9 +205,9 @@ h3.main-content_heading {
 .hero .hero-copy h2 {
   font-size: 42px;
   line-height: 52px;
-  max-width: 750px;
+  max-width: 650px;
   margin: 0 auto 0 auto;
-  color: #142734;
+  color: #1e2429;
   letter-spacing: -0.75px;
 }
 .hero .hero-copy img {
@@ -219,7 +219,7 @@ h3.main-content_heading {
 
 .contact-form {
   padding: 140px 0;
-  background: #142734;
+  background: #1e2429;
   text-align: center;
 }
 .contact-form h3 {
@@ -258,7 +258,7 @@ h3.main-content_heading {
   height: 60px;
   line-height: 60px;
   padding: 0 50px;
-  background: #dde416;
+  background: #e1e137;
   margin-top: 30px;
 }
 
