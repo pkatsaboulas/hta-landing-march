@@ -1,25 +1,13 @@
 $(function(){
 	
 	
-	function scrollStuff(){
-		
-		var $top = $(window).scrollTop();
+	$('header .btn_primary').on('click', function(){
+        
+        var _top = $('.contact-form').offset().top;
 
-	}
-
-	$(window).on('load', function(){
-
-		scrollStuff();
+        $('body, html').animate({ scrollTop: _top });
 
 	});
-
-	$(window).on('resize', function(){
-
-		scrollStuff();
-
-	});
-
-	$(window).on('scroll', scrollStuff);
 	
 	
 });
