@@ -111,7 +111,7 @@ section{
         font-size:20px;
         line-height:30px;
         margin-bottom:20px;
-        color:$blue;
+        color:#6d8395;
         letter-spacing:-0.75px;
     }
     p{
@@ -127,8 +127,8 @@ section{
     padding:0 30px;
     border:none;
     border-radius:8px;
-    background:$blue;
-    color:white;
+    background:$yellow;
+    color:$blue;
     font-size:20px;
     line-height:50px;
     font-weight:700;
@@ -153,8 +153,8 @@ header{
         position:absolute;
         right:0px;
         top:35px;
-        background:$blue_light;
-        color:white;
+        background:$blue;
+        color:$yellow;
     }
 }
 footer{
@@ -175,25 +175,25 @@ h3.main-content_heading{
     letter-spacing:-0.75px;
 }
 .green_text{
-    color:$blue_light;
+    color:$yellow;
 }
 .hero{
     position:relative;
     width:100%;
     height:100%;
-    max-height:650px;
-    min-height:650px;
+    max-height:600px;
+    min-height:600px;
     background:#ebebeb url(../img/drivers.png) no-repeat bottom center;
     color:white;
     .hero-copy{
         position:absolute;
         width:100%;
-        bottom:320px;
+        bottom:310px;
         text-align:center;
         h2{
-            font-size:45px;
-            line-height:55px;
-            max-width:850px;
+            font-size:42px;
+            line-height:52px;
+            max-width:750px;
             margin:0 auto 0 auto;
             color:$blue;
             letter-spacing:-0.75px;
@@ -247,7 +247,7 @@ h3.main-content_heading{
         height:60px;
         line-height:60px;
         padding:0 50px;
-        background:$blue_light;
+        background:$yellow;
         margin-top:30px;
     }
 }

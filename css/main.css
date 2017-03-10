@@ -70,7 +70,7 @@ html, body {
   height: 100%;
   font-family: "Montserrat";
   -webkit-font-smoothing: antialiased;
-  color: #252525;
+  color: #142734;
   font-weight: 400;
 }
 
@@ -115,14 +115,14 @@ section {
   font-size: 30px;
   line-height: 30px;
   margin-bottom: 10px;
-  color: #28b222;
+  color: #142734;
   letter-spacing: -0.75px;
 }
 .col-75 h4 {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 20px;
-  color: #252525;
+  color: #6d8395;
   letter-spacing: -0.75px;
 }
 .col-75 p {
@@ -137,8 +137,8 @@ section {
   padding: 0 30px;
   border: none;
   border-radius: 8px;
-  background: #252525;
-  color: white;
+  background: #dde416;
+  color: #142734;
   font-size: 20px;
   line-height: 50px;
   font-weight: 700;
@@ -164,8 +164,8 @@ header .btn_primary {
   position: absolute;
   right: 0px;
   top: 35px;
-  background: #28b222;
-  color: white;
+  background: #142734;
+  color: #dde416;
 }
 
 .main-content {
@@ -184,30 +184,30 @@ h3.main-content_heading {
 }
 
 .green_text {
-  color: #28b222;
+  color: #dde416;
 }
 
 .hero {
   position: relative;
   width: 100%;
   height: 100%;
-  max-height: 650px;
-  min-height: 650px;
+  max-height: 600px;
+  min-height: 600px;
   background: #ebebeb url(../img/drivers.png) no-repeat bottom center;
   color: white;
 }
 .hero .hero-copy {
   position: absolute;
   width: 100%;
-  bottom: 320px;
+  bottom: 310px;
   text-align: center;
 }
 .hero .hero-copy h2 {
-  font-size: 45px;
-  line-height: 55px;
-  max-width: 850px;
+  font-size: 42px;
+  line-height: 52px;
+  max-width: 750px;
   margin: 0 auto 0 auto;
-  color: #252525;
+  color: #142734;
   letter-spacing: -0.75px;
 }
 .hero .hero-copy img {
@@ -219,7 +219,7 @@ h3.main-content_heading {
 
 .contact-form {
   padding: 140px 0;
-  background: #252525;
+  background: #142734;
   text-align: center;
 }
 .contact-form h3 {
@@ -258,7 +258,7 @@ h3.main-content_heading {
   height: 60px;
   line-height: 60px;
   padding: 0 50px;
-  background: #28b222;
+  background: #dde416;
   margin-top: 30px;
 }
 
