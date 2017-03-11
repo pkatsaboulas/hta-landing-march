@@ -144,9 +144,17 @@ section {
   font-weight: 700;
   text-align: center;
   cursor: pointer;
+  -webkit-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+  -moz-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+  -ms-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+  -o-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .btn_primary:focus {
   outline: none;
+}
+.btn_primary:hover {
+  border-radius: 25px;
 }
 
 header {

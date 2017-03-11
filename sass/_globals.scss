@@ -134,8 +134,12 @@ section{
     font-weight:700;
     text-align:center;
     cursor:pointer;
+    @include transition(all 0.8s $easeOutExpo);
     &:focus{
         outline:none;
+    }
+    &:hover{
+        border-radius:25px;
     }
 }
 header{
