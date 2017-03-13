@@ -1,9 +1,5 @@
-@charset "UTF-8";
 /* easeOutExpo */
 /* easeInOutExpo */
-/* ––––––––––––––––––––––––––––––––––––––––––––
-RESETS
-––––––––––––––––––––––––––––––––––––––––––– */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,9 +26,6 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* ––––––––––––––––––––––––––––––––––––––––––––
-HELPERS
-––––––––––––––––––––––––––––––––––––––––––– */
 .clearfix {
   *zoom: 1;
 }
@@ -60,12 +53,6 @@ HELPERS
   box-sizing: border-box;
 }
 
-/* ––––––––––––––––––––––––––––––––––––––––––––
-TYPOGRAPHY
-––––––––––––––––––––––––––––––––––––––––––– */
-/* ––––––––––––––––––––––––––––––––––––––––––––
-GLOBAL STYLES
-––––––––––––––––––––––––––––––––––––––––––– */
 html, body {
   height: 100%;
   font-family: "Montserrat";
@@ -86,49 +73,23 @@ html, body {
   margin: 0 auto;
 }
 
-section {
-  padding: 30px 0;
+.main-content {
+  padding: 40px 0 100px 0;
 }
 
-.row {
-  display: flex;
-  align-items: center;
-}
-
-.col-25 {
-  width: 25%;
-  float: left;
-  text-align: center;
-}
-.col-25 img {
-  display: inline-block;
+h3.main-content_heading {
+  padding: 30px 0 60px 0;
+  font-size: 35px;
+  line-height: 45px;
   width: 100%;
-  max-width: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: -0.75px;
 }
 
-.col-75 {
-  width: 75%;
-  float: left;
-  padding-left: 30px;
-}
-.col-75 h3 {
-  font-size: 30px;
-  line-height: 30px;
-  margin-bottom: 10px;
-  color: #1e2429;
-  letter-spacing: -0.75px;
-}
-.col-75 h4 {
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  color: #6d8395;
-  letter-spacing: -0.75px;
-}
-.col-75 p {
-  font-size: 16px;
-  line-height: 26px;
-  color: #999;
+.green_text {
+  color: #e1e137;
 }
 
 .btn_primary {
@@ -175,24 +136,8 @@ header .btn_primary {
   background: #1e2429;
   color: #e1e137;
 }
-
-.main-content {
-  padding: 40px 0 100px 0;
-}
-
-h3.main-content_heading {
-  padding: 30px 0 60px 0;
-  font-size: 35px;
-  line-height: 45px;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  letter-spacing: -0.75px;
-}
-
-.green_text {
-  color: #e1e137;
+header .logo-mobile {
+  display: none;
 }
 
 .hero {
@@ -201,7 +146,7 @@ h3.main-content_heading {
   height: 100%;
   max-height: 600px;
   min-height: 600px;
-  background: #ebebeb url(../img/drivers.png) no-repeat bottom center;
+  background: #f2f4f6 url(../img/drivers.png) no-repeat bottom center;
   color: white;
 }
 .hero .hero-copy {
@@ -213,7 +158,7 @@ h3.main-content_heading {
 .hero .hero-copy h2 {
   font-size: 42px;
   line-height: 52px;
-  max-width: 650px;
+  max-width: 750px;
   margin: 0 auto 0 auto;
   color: #1e2429;
   letter-spacing: -0.75px;
@@ -225,8 +170,50 @@ h3.main-content_heading {
   margin: 0 auto;
 }
 
+section {
+  padding: 30px 30px;
+}
+section .col-25 {
+  width: 25%;
+  padding: 0 20px;
+  float: left;
+  text-align: center;
+}
+section .col-25 img {
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+}
+section .col-75 {
+  width: 75%;
+  float: left;
+  padding-left: 30px;
+}
+section .col-75 h3 {
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  color: #1e2429;
+  letter-spacing: -0.75px;
+}
+section .col-75 h4 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: #6d8395;
+  letter-spacing: -0.75px;
+}
+section .col-75 p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #999;
+}
+section:nth-child(odd) .col-25 {
+  float: right;
+}
+
 .contact-form {
-  padding: 140px 0;
+  padding: 140px 30px;
   background: #1e2429;
   text-align: center;
 }
@@ -250,12 +237,12 @@ h3.main-content_heading {
 .contact-form .field input {
   width: 100%;
   height: 60px;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border: none;
   border-radius: 8px;
   background: white;
   color: #1e2429;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
@@ -283,15 +270,125 @@ h3.main-content_heading {
   margin-top: 30px;
 }
 
-.btn-large .row {
-  display: block;
-  text-align: center;
+@media (max-width: 960px) {
+  .hero {
+    background-size: 110%;
+  }
+  .hero .hero-copy {
+    padding: 0 30px;
+    bottom: 280px;
+  }
+  .hero .hero-copy h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
 }
-.btn-large .btn_primary {
-  font-size: 22px;
-  height: 60px;
-  line-height: 60px;
-  padding: 0 50px;
+@media (max-width: 600px) {
+  header {
+    padding: 0 30px;
+  }
+
+  .hero {
+    max-height: 100%;
+    min-height: 100%;
+    background-size: 150%;
+  }
+  .hero .hero-copy {
+    bottom: 250px;
+  }
+  .hero .hero-copy h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  section {
+    padding: 20px 20px;
+  }
+  section .col-25 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  section .col-25 img {
+    max-width: 120px;
+  }
+  section .col-75 {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+  section .col-75 h3 {
+    font-size: 23px;
+    line-height: 23px;
+    margin-bottom: 10px;
+  }
+  section .col-75 h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  section .col-75 p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  section:nth-child(odd) .col-25 {
+    float: left;
+  }
+
+  .contact-form {
+    padding: 90px 20px;
+  }
+  .contact-form h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .contact-form .field input {
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  .contact-form .btn_primary {
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    padding: 0 20px;
+    height: 100px;
+  }
+  header .btn_primary {
+    font-size: 18px;
+    top: 25px;
+    padding: 0 15px;
+  }
+  header .logo {
+    display: none;
+  }
+  header .logo-mobile {
+    display: block;
+  }
+
+  .hero {
+    background-size: 170%;
+  }
+  .hero .hero-copy {
+    padding: 0 30px;
+    bottom: 200px;
+  }
+  .hero .hero-copy h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .main-content {
+    padding: 20px 0 60px 0;
+  }
+
+  h3.main-content_heading {
+    padding: 30px 0 15px 0;
+    font-size: 25px;
+    line-height: 35px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
