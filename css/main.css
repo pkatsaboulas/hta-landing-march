@@ -373,11 +373,11 @@ section:nth-child(odd) .col-25 {
   }
   .hero .hero-copy {
     padding: 0 30px;
-    bottom: 200px;
+    bottom: 170px;
   }
   .hero .hero-copy h2 {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 26px;
+    line-height: 36px;
   }
 
   .main-content {
