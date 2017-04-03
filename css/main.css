@@ -248,17 +248,45 @@ section:nth-child(odd) .col-25 {
 .contact-form .field input:focus {
   outline: none;
 }
+.contact-form .select-style {
+  height: 60px;
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  color: #1e2429;
+  overflow: hidden;
+  background: white url(../img/chevron-down.png) no-repeat right 20px center;
+}
+.contact-form .select-style select {
+  padding: 10px 20px;
+  width: 100%;
+  height: 60px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.contact-form .select-style select:focus {
+  outline: none;
+}
 .contact-form ::-webkit-input-placeholder {
-  color: #777;
+  color: #1e2429;
 }
 .contact-form ::-moz-placeholder {
-  color: #777;
+  color: #1e2429;
 }
 .contact-form :-ms-input-placeholder {
-  color: #777;
+  color: #1e2429;
 }
 .contact-form :-moz-placeholder {
-  color: #777;
+  color: #1e2429;
 }
 .contact-form .btn_primary {
   font-size: 22px;
